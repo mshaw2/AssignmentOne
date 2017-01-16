@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vibgyor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mshaw.vibgyor.VibgyorActivity">
+
+    <TextView
+
+        style="@style/vibgyor_style"
+        android:background="#FF0000"
+        android:text="red" />
+
+    <TextView
+
+        style="@style/vibgyor_style"
+
+        android:background="#FF7F00"
+        android:text="orange" />
+
+    <TextView
+        style="@style/vibgyor_style"
+        android:background="#FFFF00"
+        android:text="yellow" />
+
+    <TextView
+
+        style="@style/vibgyor_style"
+        android:background="#00FF00"
+        android:text="green" />
+
+    <TextView
+        style="@style/vibgyor_style"
+        android:background="#0000FF"
+        android:text="blue" />
+
+    <TextView
+        style="@style/vibgyor_style"
+        android:background="#4B0082"
+        android:text="indigo" />
+
+    <TextView
+        style="@style/vibgyor_style"
+        android:background="#9400D3"
+
+        android:text="voilet" />
+</LinearLayout>
